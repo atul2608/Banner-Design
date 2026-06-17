@@ -1,0 +1,64 @@
+
+
+     <!--DO NOT CHANGE THE CODE IN THIS FILE-->
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <title>ZEE Exclusive Banner Designers</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+        <div id="container">
+           
+                 <h1>ZEE - Exclusive Banner Designers</h1>
+                <br>
+                <h2>Price Estimator:</h2>
+                <br>
+                 <form onsubmit="return submitForm();">
+                <table>
+                    <tr>
+                        <td>Select Dimension:</td>
+                        <td> <select id="dimension" required>
+                               <option hidden>--Select--</option>
+                               <option value="24x36">24x36</option>
+                               <option value="36x48">36x48</option>
+                               <option value="48x72">48x72</option>
+                            </select>
+                            (Inches)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Select Type:</td>
+                        <td>
+                             <input type="radio" name="banner_type" id="vinyl" value="vinyl" required>Vinyl
+                             <input type="radio" name="banner_type" id="mesh" value="mesh">Mesh
+                             <input type="radio" name="banner_type" id="fabric" value="fabric">Fabric
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="count">Banner Count:</label></td>
+                       <td><input type="number" id="count" min="1" required></td>
+                   </tr>
+                   <tr>
+                     <td><label for="type">Select Creativity Level:</label></td>
+                      <td> <input type="radio" name="creativity_level" id="basic" value="basic" required>Basic
+                           <input type="radio" name="creativity_level" id="medium" value="medium">Medium
+                           <input type="radio" name="creativity_level" id="premium" value="premium">Premium
+                       </td>
+                   </tr>
+                   <tr><td></td><td></td></tr>
+                   <tr>
+                  <td><button id="calculate" type="submit">Calculate Cost</button></td>
+                  <td><button id="reset" type="reset" onclick="resetForm()">Reset</button></td>
+                   </tr>
+                  
+               </table>
+       </form>
+   <br>
+       <div id="cost"></div>
+   
+       </div>
+       <script src="script.js" lang="text/javascript"></script>
+   </body>
+   </html>

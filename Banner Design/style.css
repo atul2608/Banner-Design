@@ -1,0 +1,61 @@
+
+td:last-child {
+      width:280px;
+   }
+  td:first-child {
+     width:250px;
+  }
+  td{
+      padding:5px;
+  }
+  button{
+       margin-left: 20px;
+      border-radius: 5px;
+      color:#ffffff;
+      padding:5px;
+  }
+  #calculate{
+      background-color: green;
+      width:150px;
+  }
+  #reset{
+      background-color: red;
+      width:60px;
+      font-size:14px;
+  }
+  input[type="number"],select{
+      width:80px;
+      border-radius:5px;
+      padding:5px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: bold;
+  }
+select{
+    width:100px;
+    border: 2px solid #000000;
+}
+      form{
+          border: 5px groove #000000;
+          width:525px;
+          padding:10px;
+          font-size: 17px;
+          font-weight: bold;
+          font-family: Sans-Serif;
+          background-color: #74ccd4;
+      }
+button{
+  font-size: 16px;
+}
+#cost{
+     background-color: #130130;
+     color:#ffffff;
+     margin-left: 25px;
+     font-size:25px;
+     border:1px solid #000000;
+     width:507px;
+     padding:5px;
+ }
+#container{
+  margin-left:20px;
+}
